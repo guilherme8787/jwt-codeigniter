@@ -51,10 +51,13 @@ Crie um arquivo em config chamado jwt.php com o conteúdo:
 
 **Layout:**
 O layout acima no Array segue o padrão rfc7519:
-https://datatracker.ietf.org/doc/html/rfc7519
-"iat": 1629307681, -> hora  em  que  o  token  foi  gerado 
-"exp": 1629336481, -> expiration  time 
-"nbf": 1629307681, -> é  valido a  partir  de
+ 
+ - https://datatracker.ietf.org/doc/html/rfc7519
+
+ - "iat": 1629307681, -> hora  em  que  o  token  foi  gerado 
+ - "exp": 1629336481, -> expiration  time 
+ - "nbf": 1629307681, -> é  valido a  partir  de
+ - 
 O conteúdo da mensagem *loginInfo* corresponde aos dados de login do usuário inseridos na mensagem do token
 
 **Exemplo de decode:**
@@ -68,5 +71,9 @@ O conteúdo da mensagem *loginInfo* corresponde aos dados de login do usuário i
 
 
 Referencias:
-https://www.youtube.com/watch?v=Nd1vyvegvXo
-https://github.com/rpiambulance/website/blob/master/jwt_helper.php
+
+ - https://www.youtube.com/watch?v=Nd1vyvegvXo
+  
+ - https://github.com/rpiambulance/website/blob/master/jwt_helper.php
+ 
+
