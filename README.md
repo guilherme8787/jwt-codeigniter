@@ -1,7 +1,8 @@
 **Bem vindo**
 
 O repositório acima é um projeto usando CodeIgniter na versão 3.1, para testar basta entrar no diretório do projeto via linha de comando e executar
-php -S localhost:80
+    
+    php -S localhost:80
 
 Iniciando
 
